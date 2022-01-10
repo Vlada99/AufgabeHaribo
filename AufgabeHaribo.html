@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haribo</title>
+    <style>
+        .flexbox-parent div{text-align: center;
+            padding: 10px;
+            margin: 10px;}
+        .flexbox-parent{display:flex;
+            justify-content: center; 
+            align-items: center;}
+            .flexbox-child-1{flex:1; 
+                background-color: lightgray;}
+            .flexbox-child-2{flex:2; 
+                background-color: red;}    
+            .flexbox-child-3{flex:1; 
+                background-color: turquoise;}                          
+    </style>
+</head>
+<body>
+    <div class="flexbox-parent">
+        <div class="flexbox-child-1">Ein Element</div>
+        <div class="flexbox-child-2">Ein Element</div>
+        <div class="flexbox-child-1">Ein Element</div>
+    </div>   
+    <div class="flexbox-parent">
+        <div class="flexbox-child-1">Ein Element</div>
+        <div class="flexbox-child-1">Ein Element</div>
+    </div>  
+    <div class="flexbox-parent">
+        <div class="flexbox-child-1">
+            <div class="flexbox-parent">
+                <div class="flexbox-child-3"><img src="../AufgabeHaribo_files/html_haribo.png" alt="Haribo-Tüte"></div>
+                <div class="flexbox-child-3">Information</div></div></div>
+        <div class="flexbox-child-1">Ein Element</div>
+    </div> 
+</body>
+</html>
